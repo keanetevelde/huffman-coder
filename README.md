@@ -17,7 +17,7 @@ vector<char>* decompressedText = HuffmanCoder<char>::newDecodedVector(unsignedCh
 ```
 
 
-I came across this video which is what made me want to try this:
+I came across this video, and that's what gave me the idea to try this
 [![How Computers Compress Text: Huffman Coding and Huffman Trees](http://img.youtube.com/vi/JsTptu56GM8/0.jpg)](http://www.youtube.com/watch?v=JsTptu56GM8)
   
   
