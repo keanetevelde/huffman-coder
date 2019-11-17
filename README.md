@@ -10,9 +10,11 @@ data, and then turn that binary back into the origional data.
 
 So far, you can:
 
-`vector<unsigned char>* compressedBinary = HuffmanCoder<char>::newEncodedVector(charVectorContainingText);`
+```c++
+vector<unsigned char>* compressedBinary = HuffmanCoder<char>::newEncodedVector(charVectorContainingText);
   
-`vector<char>* decompressedText = HuffmanCoder<char>::newDecodedVector(unsignedCharVectorContainingBinary);`
+vector<char>* decompressedText = HuffmanCoder<char>::newDecodedVector(unsignedCharVectorContainingBinary);
+```
 
 
 I came across this video which is what made me want to try this:
