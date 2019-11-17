@@ -8,15 +8,14 @@ with larger), and will output a vector with binary representing the origional
 data, and then turn that binary back into the origional data.
 
 
-to use:
-vector<unsigned char>* compressedBinary =
-  HuffmanCoder<char>::newEncodedVector(charVectorContainingText);
+So far, you can:
+
+`vector<unsigned char>* compressedBinary = HuffmanCoder<char>::newEncodedVector(charVectorContainingText);`
   
-vector<char>* decompressedText =
-  HuffmanCoder<char>::newDecodedVector(unsignedCharVectorContainingBinary);
+`vector<char>* decompressedText = HuffmanCoder<char>::newDecodedVector(unsignedCharVectorContainingBinary);`
 
 
-I came across this video which is what made me want to try this!
+I came across this video which is what made me want to try this:
 [![How Computers Compress Text: Huffman Coding and Huffman Trees](http://img.youtube.com/vi/JsTptu56GM8/0.jpg)](http://www.youtube.com/watch?v=JsTptu56GM8)
   
   
